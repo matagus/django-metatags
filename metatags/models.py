@@ -86,4 +86,4 @@ class MetaTag(models.Model):
         verbose_name_plural = _('meta tags')
     
     def __unicode__(self):
-        return 'Meta tags for %s "%s"' % (self.content_type, self.tagged_item,)
+        return 'Meta tags for %s "%s"' % (self.content_type, self.content_object,)
