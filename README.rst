@@ -11,7 +11,7 @@ As it is available on the Python Package Index, you can install django-metatags 
 
 You can also install directly from the git master branch using the pip package manager::
 
-   pip install git+http://github.com/cpharmston/django-metatags.git#egg=metatags
+   pip install git+http://github.com/degenhard/django-metatags.git#egg=metatags
 
 Or you can download django-metatags and install locally::
 
@@ -44,5 +44,3 @@ Run ``./manage.py syncdb`` to create the requisite database tables. Then, to any
            MetaTagInline
        ]
    admin.site.register(SomeModel, SomeModelAdmin)
-
-For additional user experience enhancements to the inline, copy or symlink ``metatags/media/metatags`` to your ``MEDIA_ROOT``.
