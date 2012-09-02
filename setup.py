@@ -5,7 +5,7 @@ from distutils.core import setup
 version = '0.1'
 
 classifiers = [
-    "Development Status :: 3 - Alpha",
+    "Development Status :: 2 - Beta",
     "Framework :: Django",
     "Intended Audience :: Developers",
     "License :: OSI Approved :: GNU General Public License (GPL)",
@@ -24,7 +24,7 @@ setup(
     author='Chuck Harmston',
     author_email='chuck@chuckharmston.com',
     license='Dual-licensed under MIT and GPL',
-    packages=['metatags'],
+    packages=['metatags', 'generic_links.templatetags'],
     package_dir={'metatags': 'metatags'},
     description=(
         'A simple, pluggable app for attaching meta tags to objects with their '
