@@ -24,7 +24,7 @@ setup(
     author='Chuck Harmston',
     author_email='chuck@chuckharmston.com',
     license='Dual-licensed under MIT and GPL',
-    packages=['metatags', 'generic_links.templatetags'],
+    packages=['metatags', 'metatags.templatetags'],
     package_dir={'metatags': 'metatags'},
     description=(
         'A simple, pluggable app for attaching meta tags to objects with their '
