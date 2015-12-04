@@ -30,7 +30,7 @@ To install, add django-metatags to your ``INSTALLED_APPS`` in your Django settin
       'django.contrib.sites',
       'django.contrib.messages',
       ...
-      'metatags
+      'metatags',
    ]
 
 Run ``./manage.py syncdb`` to create the requisite database tables. Then, to any ModelAdmin that you'd like the Meta Tag inline to appear, simply add it::
